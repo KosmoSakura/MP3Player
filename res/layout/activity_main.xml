@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3" >
+
+   
+
+    <LinearLayout
+        android:id="@+id/ll0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv0"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/printdark1" />
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/printdark3" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/printdark3" />
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/printdark3" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_below="@id/ll0"
+        android:background="@drawable/mainbackground1" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/vp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/shap"
+            android:onClick="myClick"
+            android:src="@drawable/onstopp" />
+
+        <ImageButton
+            android:id="@+id/ibBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shap"
+            android:onClick="myClick"
+            android:src="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/ibPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shap"
+            android:onClick="myClick"
+            android:src="@drawable/onplayp" />
+
+        <ImageButton
+            android:id="@+id/ibGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/shap"
+            android:onClick="myClick"
+            android:src="@drawable/go" />
+
+        <ImageButton
+            android:id="@+id/ibRe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shap"
+            android:onClick="myClick"
+            android:src="@drawable/repeat_no" />
+    </LinearLayout>
+
+</RelativeLayout>

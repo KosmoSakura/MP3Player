@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView 
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#660066"
+            android:text="共扫描到0首歌"/>
+        <ImageButton 
+            android:id="@+id/ibFlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/songlist1"/>
+    </RelativeLayout>
+	<ListView 
+	    android:id="@+id/lv"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:divider="@android:color/holo_red_dark"
+	    android:dividerHeight="1sp"></ListView>    
+
+</LinearLayout>

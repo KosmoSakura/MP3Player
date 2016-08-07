@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="关于页面"
+        android:textColor="#9900CC"
+        android:textSize="20.0dip" />
+
+    <TextView
+        android:textColor="#9900CC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用名称：音乐音乐"
+        android:textSize="20.0dip" />
+
+    <TextView
+        android:textColor="#9900CC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用版本：V 1.0.0"
+        android:textSize="20.0dip" />
+
+    <TextView
+        android:textColor="#9900CC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用归属：Zull"
+        android:textSize="20.0dip" />
+
+    <TextView
+        android:textColor="#9900CC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用概述："
+        android:textSize="20.0dip" />
+
+    <TextView
+        android:textColor="#9900CC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        该应用是一款轻量级的音乐播放软件。集成了常用的音乐播放功能：播放、暂停、停止、上一曲、下一曲。可以展示手机存储卡上的音乐文件列表，可以将该列表作为播放列表，也可以自定义播放列表，实现个性化定制！"
+        android:textSize="20.0dip" />
+
+</LinearLayout>
